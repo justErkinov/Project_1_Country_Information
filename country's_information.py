@@ -1,3 +1,8 @@
+""" Bu dastur oddiy bir dastur judda vajni kod emas kodni ishlash tartibi shunaqa agar siz
+ UZ deb kiritsangiz uzbekistonning hamma malumotlari chiqib keladi tk deb kiritsangiz
+ Turkiyani malumotlari kelib chiqadi kod shu  vazifani bajaradi:
+"""
+print("kod masalan:uz")
 while True:
 	a = input("Mamlakat kodini kiriting:")
 	b = a.upper()
@@ -150,14 +155,3 @@ while True:
 	    print('Yer maydoni:', natija['yer maydoni'])
 	    print('Pul birligi:', natija['pul birligi'])
 		
-    davlatlar = {
-	    "USA": {
-	        "name": "'United States of America",
-	        "tili": "Englis tili",
-	        "poytaxt": "Washington",
-	        "millati": "American",
-	        "aholisi":" 331 MLN gayaqin",
-	        'yer maydoni': "9,833,520 KM",
-	        'pul birligi': 'USD'
-			
-        }}
